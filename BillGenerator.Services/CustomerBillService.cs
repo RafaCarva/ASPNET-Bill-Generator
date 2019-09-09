@@ -23,7 +23,7 @@ namespace BillGenerator.Services
 
         public CustomerBill Insert(CustomerBill customeBill)
         {
-            throw new NotImplementedException();
+            return _customerBillBusiness.Insert(customeBill);
         }
     }
 }
